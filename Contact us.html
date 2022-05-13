@@ -22,32 +22,33 @@
 <!-- header section starts  -->
 
 <header class="header">
-
     <div class="header-1">
+      <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
 
-        <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
-        
-        <form action="result" class="search-form">
-            <input type="search" name="books" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
+      <form action="searchResult.php" class="search-form">
+        <input
+          type="text"
+          name="searchResults"
+          placeholder="Enter Your Post Code Here"
+          id="search-box"
+        />
+        <label for="searchResults" class="fas fa-search"></label>
+      </form>
 
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+  
+        <div id="login-btn" class="fas fa-user"></div>
         </div>
 
     </div>
 
     <div class="header-2">
         <nav class="navbar">
-            <a href="index.html">home</a>
+            <a href="index.html">Home</a>
             <a href="GymOffers.html">Gym Offers</a>
             <a href="Contact us.html">Contact us</a>
-            <a href="Review.html">reviews</a>
-            <a href="blogs.html">blogs</a>
+            <a href="Review.html">Reviews</a>
         </nav>
     </div>
 
@@ -68,25 +69,38 @@
 <!-- login form  -->
 
 <div class="login-form-container">
-
     <div id="close-login-btn" class="fas fa-times"></div>
 
     <form action="signup.php">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="email" class="box" placeholder="enter your email" id="email">
-        <span>password</span>
-        <input type="password" name="password" class="box" placeholder="enter your password" id="password">
-        <div class="checkbox">
-            <input type="checkbox" name="remember-me" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="Forgetpass.php">click here</a></p>
-        <p>don't have an account ? <a href="Registrationform.php">create one</a></p>
+      <h3>sign in</h3>
+      <span>username</span>
+      <input
+        type="email"
+        name="email"
+        class="box"
+        placeholder="enter your email"
+        id="email"
+      />
+      <span>password</span>
+      <input
+        type="password"
+        name="password"
+        class="box"
+        placeholder="enter your password"
+        id="password"
+      />
+      <div class="checkbox">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me"> remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn" />
+      <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+      <p>
+        Register as a customer <a href="Registrationform.html">create one</a>
+      </p>
+      <p>Register as a Gym <a href="gymReg.php">create one</a></p>
     </form>
-
-</div>
+  </div>
 
 
 
@@ -99,24 +113,24 @@
     <div class="box-container">
 
         <div class="box">
-            <h3>our locations</h3>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
-            <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+            <h3>Our Locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> London </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Birmingham</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Milton keyns</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Wolverhampton </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bolton </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Manchester </a>
         </div>
 
         <div class="box">
-            <h3>quick links</h3>
+            <h3>Quick links</h3>
             <a href="index.html"> <i class="fas fa-arrow-right"></i> home </a>
             <a href="Gymoffers.html"> <i class="fas fa-arrow-right"></i> Gym Offers </a>
             <a href="Review.html"> <i class="fas fa-arrow-right"></i> reviews </a>
         </div>
 
         <div class="box">
-            <h3>extra links</h3>
+            <h3>Extra links</h3>
             <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
             <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
             <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
@@ -150,9 +164,8 @@
 
 <!-- loader  -->
 
-<div class="loader-container">
-    <img src="image/loader-img.gif" alt="">
-</div>
+
+
 
 
 

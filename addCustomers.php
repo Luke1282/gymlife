@@ -34,14 +34,19 @@
             <label for="search-box" class="fas fa-search"></label>
         </form>
 	
-			<div class="icons">
-				<div id="search-btn" class="fas fa-search"></div>
-				<a href="#" class="fas fa-heart"></a>
-				<a href="#" class="fas fa-shopping-cart"></a>
-				<div id="login-btn" class="fas fa-user"></div>
-			</div>
-	
-		</div>
+		<div class="login-form-container">
+
+<div class="checkbox">
+	<input type="checkbox" name="remember-me" id="remember-me" />
+	<label for="remember-me"> remember me</label>
+  </div>
+  <input type="submit" value="sign in" class="btn" />
+  <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+  <p>
+	Register as a customer <a href="Registrationform.html">create one</a>
+  </p>
+  <p>Register as a Gym <a href="gymReg.php">create one</a></p>
+</form>
 	
 		<div class="header-2">
 			<nav class="navbar">

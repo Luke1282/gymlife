@@ -22,35 +22,36 @@
 <!-- header section starts  -->
 
 <header class="header">
-
     <div class="header-1">
+      <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
 
-        <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
-        
-        <form action="result" class="search-form">
-            <input type="search" name="books" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
+      <form action="searchResult.php" class="search-form">
+        <input
+          type="text"
+          name="searchResults"
+          placeholder="Enter Your Post Code Here"
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
 
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
-
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
     </div>
 
-    <div class="header-2">
-        <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="GymOffers.html">Gym Offers</a>
-            <a href="Contact us.html">Contact us</a>
-            <a href="Review.html">Review</a>
-            <a href="blogs.html">blogs</a>
-        </nav>
-    </div>
 
+<div class="header-2">
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="GymOffers.html">Gym Offers</a>
+      <a href="Contact us.html">Contact us</a>
+      <a href="Review.html">Review</a>
+    </nav>
+  </div>
 </header>
 
 <!-- header section ends -->
@@ -62,31 +63,43 @@
     <a href="GymOffers.html" class="fas fa-list"></a>
     <a href="Contact us.html" class="fas fa-tags"></a>
     <a href="Review.html" class="fas fa-comments"></a>
-    <a href="blogs.html" class="fas fa-blog"></a>
 </nav>
 
 <!-- login form  -->
 
 <div class="login-form-container">
-
     <div id="close-login-btn" class="fas fa-times"></div>
 
     <form action="signup.php">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="email" class="box" placeholder="enter your email" id="email">
-        <span>password</span>
-        <input type="password" name="password" class="box" placeholder="enter your password" id="password">
-        <div class="checkbox">
-            <input type="checkbox" name="remember-me" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="Forgetpass.php">click here</a></p>
-        <p>don't have an account ? <a href="Registrationform.php">create one</a></p>
+      <h3>sign in</h3>
+      <span>username</span>
+      <input
+        type="email"
+        name="email"
+        class="box"
+        placeholder="enter your email"
+        id="email"
+      />
+      <span>password</span>
+      <input
+        type="password"
+        name="password"
+        class="box"
+        placeholder="enter your password"
+        id="password"
+      />
+      <div class="checkbox">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me"> remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn" />
+      <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+      <p>
+        Register as a customer <a href="Registrationform.html">create one</a>
+      </p>
+      <p>Register as a Gym <a href="gymReg.php">create one</a></p>
     </form>
-
-</div>
+  </div>
 
 <!-- home section starts  -->
 

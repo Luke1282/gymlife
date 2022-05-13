@@ -22,44 +22,39 @@
 <!-- header section starts  -->
 
 <header class="header">
-
     <div class="header-1">
+      <a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
 
-        <a href="" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
-        
-        <form action="result" class="search-form">
-            <input type="search" name="books" placeholder="search here..." id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
-        </form>
+      <form action="searchResult.php" class="search-form">
+        <input
+          type="text"
+          name="searchResults"
+          placeholder="Enter Your Post Code Here"
+          id="search-box"
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
 
-        <div class="icons">
-            <div id="search-btn" class="fas fa-search"></div>
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <div id="login-btn" class="fas fa-user"></div>
-        </div>
-
+      <div class="icons">
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
     </div>
+>
 
-    <div class="header-2">
-        <nav class="navbar">
-            <a href="index.html">home</a>
-            <a href="GymOffers.html">Gym Offers</a>
-            <a href="Contact us.html">Contact us</a>
-            <a href="Review.html">reviews</a>
-            <a href="blogs.html">blogs</a>
-        </nav>
-    </div>
+<div class="header-2">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="GymOffers.html">Gym Offers</a>
+        <a href="Contact us.html">Contact us</a>
+        <a href="Review.html">Reviews</a>
+    </nav>
+</div>
 
-</header>
-
-<!-- header section ends -->
-
-<!-- bottom navbar  -->
 
 <nav class="bottom-navbar">
     <a href="index.html" class="fas fa-home"></a>
-    <a href="Gym Offers.html" class="fas fa-list"></a>
+    <a href="GymOffers.html" class="fas fa-list"></a>
     <a href="Contact us.html" class="fas fa-tags"></a>
     <a href="Review.html" class="fas fa-comments"></a>
     <a href="blogs.html" class="fas fa-blog"></a>
@@ -68,36 +63,49 @@
 <!-- login form  -->
 
 <div class="login-form-container">
-
     <div id="close-login-btn" class="fas fa-times"></div>
 
     <form action="signup.php">
-        <h3>sign in</h3>
-        <span>username</span>
-        <input type="email" name="email" class="box" placeholder="enter your email" id="email">
-        <span>password</span>
-        <input type="password" name="password" class="box" placeholder="enter your password" id="password">
-        <div class="checkbox">
-            <input type="checkbox" name="remember-me" id="remember-me">
-            <label for="remember-me"> remember me</label>
-        </div>
-        <input type="submit" value="sign in" class="btn">
-        <p>forget password ? <a href="Forgetpass.php">click here</a></p>
-        <p>don't have an account ? <a href="Registrationform.html">create one</a></p>
+      <h3>sign in</h3>
+      <span>username</span>
+      <input
+        type="email"
+        name="email"
+        class="box"
+        placeholder="enter your email"
+        id="email"
+      />
+      <span>password</span>
+      <input
+        type="password"
+        name="password"
+        class="box"
+        placeholder="enter your password"
+        id="password"
+      />
+      <div class="checkbox">
+        <input type="checkbox" name="remember-me" id="remember-me" />
+        <label for="remember-me"> remember me</label>
+      </div>
+      <input type="submit" value="sign in" class="btn" />
+      <p>forget password ? <a href="Forgetpass.html">click here</a></p>
+      <p>
+        Register as a customer <a href="Registrationform.html">create one</a>
+      </p>
+      <p>Register as a Gym <a href="gymReg.php">create one</a></p>
     </form>
-
-</div>
+  </div>
 
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
-    <div class="row">
-
-        <div class="content">
+<div class="row">
+<div class="content">
             <h3>Gym Life</h3>
             <p> Welcome to Gym Life where we provide the best gym memeberships local to your area </p>
-        
+            <h1>Here we have gym deals locally to your area  </h1>
+            <a href="Registrationform.html" class="btn">Click here</a>
+           </p>
         </div>
 
         <div class="swiper books-slider">
@@ -162,9 +170,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
                 </div>
                 <div class="image">
                     <img src="image/jdgym.png" alt="">
@@ -178,9 +185,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/puregym.png" alt="">
@@ -194,9 +200,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
                 </div>
                 <div class="image">
                     <img src="image/davidlloyd.png" alt="">
@@ -204,15 +209,14 @@
                 <div class="content">
                     <h3>Wolverhampton David Lloyd</h3>
                     <div class="price">£15.99 <span></span></div>
-                    <a href="#" class="btn">Click here to Purchase this membership</a>
+                    <a href="" class="btn">Click here to Purchase this membership</a>
                 </div>
             </div>
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                    
                 </div>
                 <div class="image">
                     <img src="image/energie fitness.png" alt="">
@@ -226,9 +230,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/thegym.png" alt="">
@@ -242,9 +245,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/foundrygym.png" alt="">
@@ -258,9 +260,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/jdgym.png" alt="">
@@ -274,9 +275,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/thepitgym.png" alt="">
@@ -290,9 +290,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/puregymbham.png" alt="">
@@ -306,9 +305,8 @@
 
             <div class="swiper-slide box">
                 <div class="icons">
-                    <a href="#" class="fas fa-search"></a>
-                    <a href="#" class="fas fa-heart"></a>
-                    <a href="#" class="fas fa-eye"></a>
+                    <a href="searchResult.php" class="fas fa-search"></a>
+                   
                 </div>
                 <div class="image">
                     <img src="image/puregym.png" alt="">
@@ -331,197 +329,6 @@
 
 
 
-<section class="arrivals" id="arrivals">
-
-    <h1 class="heading"> <span>New deals</span> </h1>
-
-    <div class="swiper arrivals-slider">
-
-        <div class="swiper-wrapper">
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/gymbox.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>GymBox Covent Garden</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/king's sport gym.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>King's Sport London Bridge</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/davidlloydspeke.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>David Lloyd Liverpool Speke</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/trainstation2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Training Station 2 Liverpool</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/musclebull.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Muscle Bull London </h3>
-                    <div class="price">£13.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="swiper arrivals-slider">
-
-        <div class="swiper-wrapper">
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/virginactive.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>Virgin Active Manchester</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/puregym2.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>PureGym Manchester Spinningfileds</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/davidlloydspeke.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>David Lloyd Liverpool Speke</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/jdgym.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>JD Gym Liverpool City Centre</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#" class="swiper-slide box">
-                <div class="image">
-                    <img src="image/thegymliv.png" alt="">
-                </div>
-                <div class="content">
-                    <h3>The Gym Group Liverpool Central</h3>
-                    <div class="price">£15.99 <span></span></div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                </div>
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
 
 
 

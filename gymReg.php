@@ -26,7 +26,7 @@
 	
 		<div class="header-1">
 	
-			<a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
+			<a href="index.html" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
 			
 			<form action="searchResult.php" class="search-form">
 				<input type="text" name="searchResults" placeholder="Enter Your Post Code Here" id="search-box">
@@ -44,11 +44,10 @@
 	
 		<div class="header-2">
 			<nav class="navbar">
-				<a href="index.html">home</a>
+				<a href="index.html">Home</a>
 				<a href="GymOffers.html">Gym Offers</a>
 				<a href="Contact us.html">Contact us</a>
 				<a href="Review.html">Review</a>
-				<a href="blogs.html">blogs</a>
 			</nav>
 		</div>
 	

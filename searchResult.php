@@ -19,26 +19,25 @@
 	<body>
 
 	<!-- header section starts  -->
-	
 	<header class="header">
-	
-		<div class="header-1">
-	
-			<a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
-			
-		<form action="searchResult.php" class="search-form">
-            <input type="text" name="searchResults" placeholder="Enter Your Post Code Here" id="search-box">
-            <label for="search-box" class="fas fa-search"></label>
+      <div class="header-1">
+        <a href="index.html" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
+
+        <form action="searchResult.php" class="search-form">
+          <input
+            type="text"
+            name="searchResults"
+            placeholder="Enter Your Post Code Here"
+            id="search-box"
+          />
+          <label for="search-box" class="fas fa-search"></label>
         </form>
-	
-			<div class="icons">
-				<div id="search-btn" class="fas fa-search"></div>
-				<a href="#" class="fas fa-heart"></a>
-				<a href="#" class="fas fa-shopping-cart"></a>
-				<div id="login-btn" class="fas fa-user"></div>
-			</div>
-	
-		</div>
+
+        <div class="icons">
+          <a href="searchResult.php" class="fas fa-search"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
 	
 		<div class="header-2">
 			<nav class="navbar">
@@ -88,7 +87,6 @@ s {font-family: 'Poppins', sans-serif; text-align: center; font-size: 40px;}
 include "gymLifeConnect.php";
 
 $keywordfromform1 = $_GET["searchResults"];
-
 
 
 

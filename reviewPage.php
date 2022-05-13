@@ -27,7 +27,7 @@ session_start();
 	
 		<div class="header-1">
 	
-			<a href="#" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
+			<a href="index.html" class="logo"> <i class="fas fa-gym"></i> Gym Life </a>
 			
 		<form action="searchResult.php" class="search-form">
             <input type="text" name="searchResults" placeholder="Enter Your Post Code Here" id="search-box">
@@ -36,8 +36,6 @@ session_start();
 	
 			<div class="icons">
 				<div id="search-btn" class="fas fa-search"></div>
-				<a href="#" class="fas fa-heart"></a>
-				<a href="#" class="fas fa-shopping-cart"></a>
 				<div id="login-btn" class="fas fa-user"></div>
 			</div>
 	
